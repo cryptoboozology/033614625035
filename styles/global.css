@@ -1,0 +1,189 @@
+body { 
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:100%;
+	font-family:helonia;
+    background-color:#81F7F3; 
+}
+
+p {
+    margin:40px;
+}
+
+#no-show-msg {
+    border:5px solid gray;
+    padding:10px;
+    text-align:center;
+    border-radius:3px;
+}
+
+#skeleton img {
+    margin:0px;
+    position:relative;
+    max-width:300px;
+    max-height:600px;
+}
+
+a:link {
+    text-decoration:none;
+    color:saddlebrown;
+    background-color:transparent;
+}
+
+a:visited {
+    text-decoration:none;
+    color:saddlebrown;
+    background-color:transparent;
+}
+
+a:hover {
+    text-decoration:none;
+    color:chocolate;
+    background-color:transparent;
+}
+
+a:active {
+    text-decoration:none;
+    color:cyan;
+    background-color:transparent;
+}
+
+a.nav-link:link {
+    text-decoration:none;
+    color:navajowhite;
+    background-color:transparent;
+}
+
+a.nav-link:visited {
+    text-decoration:none;
+    color:navajowhite; /*lightskyblue;*/
+    background-color:transparent;
+}
+
+a.nav-link:hover {
+    text-decoration:none;
+    color:chocolate;
+    background-color:transparent;
+}
+
+a.nav-link:active {
+    text-decoration:none;
+    color:cyan;
+    background-color:transparent;
+}
+
+.wrapper {
+    position:relative;
+    height:900px;
+}
+
+.nav-header {
+    width:100%;
+    background-color:darkslategray;
+}
+
+#soundcloud {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.nav-link {
+    display:inline-block;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#mail-nav {
+    display:inline;
+    float:right;
+}
+
+.header {
+    margin-top:40px;
+    width:100%;
+    font-family:'Lucida Console';
+    font-size:400%;
+    text-align:center;
+}
+
+.past-shows-header {
+    margin-top:40px;
+    margin-bottom:40px;
+    width:100%;
+    font-family:'Lucida Console';
+    font-size:400%;
+    text-align:center;
+}
+.content {
+    width:100%;
+    height:100%;
+}
+
+.footer {
+    width:100%;
+    text-align:right;
+    background-color:darkslategray;
+}
+
+#contact {
+    margin:0;
+    padding:0;
+    padding-top:10px;
+    padding-bottom:10px;   
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    color:antiquewhite;
+}
+
+.left-col {
+    float:left;
+    width:25%;
+    height:600px;
+    background-color:#81F7F3; 
+}
+
+.mid-col {
+    float:left;
+    text-align:center;
+    width:50%;
+    height:600px;
+    background-color:#81F7F3; 
+}
+
+.right-col {
+    float:right;
+    width:25%;
+    height:600px;
+    background-color:#81F7F3; 
+}
+
+ul {
+    margin:0px;
+}
+
+li {
+    list-style:none;
+    margin-bottom:40px;
+}
+
+.left-col-header {
+    font-size:24pt;
+    vertical-align:top;
+}
+
+.archive {
+    font-size:24pt;
+}
+
+img {
+    border-style:double;
+    border-radius:3px;
+    margin-top:0px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:40px;
+}
