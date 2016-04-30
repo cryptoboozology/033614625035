@@ -1,0 +1,130 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Masses Music</title>
+    
+    <link rel="stylesheet" rev="stylesheet" href="styles/global.css"
+          type="text/css" media="screen" charset="utf-8" />
+
+    <!--slide show script-->
+    <script type="text/javascript">
+        var image1=new Image()
+        image1.src="media/masses_logo_1.png"
+        var image2=new Image()
+        image2.src="media/masses_logo_2.png"
+    </script>
+</head>
+
+<body>
+    <!--fb sdk-->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '716886605115443',
+                xfbml      : true,
+                version    : 'v2.5'
+                });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="wrapper">
+
+        <div class="nav-header">
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link" href="/include/past-shows.html">Archive</a>
+            <a class="nav-link" id="mail-nav" href="include/mail-form.html" target="_blank">Join the Mailing List</a>
+        </div>
+
+        <div class="header">
+            <img src="media/masses_logo_1.png" name="slide" width="550" height="150" />
+            <script>
+                //variable that will increment through the images
+                var step=1
+                function slideit(){
+                    //if browser does not support the image object, exit.
+                    if (!document.images) return
+                    document.images.slide.src = eval("image" + step + ".src")
+                    if (step<2) step++
+                    else step=1
+                    //call function "slideit()" every 150 milliseconds seconds
+                    setTimeout("slideit()",150)
+                } slideit()
+            </script>
+        </div>
+
+        <div class="content">
+
+            <div class="left-col">
+                <ul>
+                    <li>
+                        <span class="left-col-header">Shows</span>
+                    </li>
+                    </ul>
+               
+                <ul>
+                    <!--list-item template to copy/paste for future shows
+                    <li>
+                        03/14/2016
+                        <a class="venue" href="https://www.google.com/" target="_blank">@ venue</a><br />
+                        <div class="city">City, CA</div>
+                    </li>-->
+
+                    <!--this list-item can be left blank or have a message: "No upcoming shows, check back soon"
+                        something like that-->
+                    <!--
+                    <li>
+                        <p id="no-show-msg"> No upcoming shows =^[ °rz</p>
+                    </li>-->
+                    
+                    <li>
+                        <a class="archive" href="include/past-shows.html" target="_blank">Archive</a>
+                    </li>
+                </ul>
+                <img src="media/alexs_bar_show.jpg" wclassth="270" height="267" /><br />
+                <p>
+                   If yer lookin' fer a good time, be sure to check us out. The apacolypse is nigh. Whose side will you be on?
+                    (aggressive three piece from the streets of Huntington Beach)  
+                </p>
+            </div>
+
+            <div class="mid-col">
+                <iframe id="soundcloud" width="550" height="450" scrolling="no" frameborder="0" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/161047741&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+
+            <div class="right-col">
+
+                <!--fb like button-->
+                <div class="fb-like"
+                     data-share="true"
+                     data-width="300"
+                     data-show-faces="true">
+                </div>
+                <br /><br />
+                <!--instagram-->
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style="" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/9TGn1fr_8j/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">@errolnotearl on the Hammond b3</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A video posted by Masses (@masses_music) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-26T11:05:30+00:00">Oct 26, 2015 at 4:05am PDT</time></p>
+            </blockquote>
+            <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>   
+                <span id="skeleton">
+                    <br />
+                    <img src="media/skeleton_logo.jpg" />
+                </span>   
+            </div>
+        </div>
+        <div class="footer">
+            <p id="contact">
+                    massesmusic@gmail.com
+            </p>
+        </div>
+    </div>
+</body>
+</html>
